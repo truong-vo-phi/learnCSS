@@ -1,108 +1,56 @@
-body{
-    background-color:rgb(210, 233, 237);
-}
-
-.heading{
-    display: grid;
-    position: absolute;
-    grid-template-columns: 60% 30% 10%;
-    margin-left: 200px;
-    margin-right: 200px;
-    
-}
-
-.center{
-    display: grid;
-    position: absolute;
-    top: 100px;
-    grid-template-columns: auto;
-    margin-left: 200px;
-    margin-right: 200px;
-}
-
-.logo-vovinam img{
-    width: 10%;
-}
-
-.main-menu li{
-    display: inline-block;
-    position: sticky;
-    top: 30px;
-    list-style-type: None;
-    padding-right: 20px;
-}
-
-.logo-fvc img{
-    width: 70%;
-}
-
-.everyone img{
-    width: 100%;
-    grid-column-start: 1;
-    grid-column-end: 3;
-}
-
-.workhard {
-    width: 100%;
-    grid-column-start: 1;
-    grid-column-end: 3;
-}
-
-.process{
-    display: grid;
+.main-top {
     position: relative;
-    top: 680px;
-    grid-template-areas: 
-                        "image-1 image-2 image-5"
-                        "image-3 image-4 image-5";
-    grid-template-columns: 1fr 1fr 1.0166fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    margin-left: 200px;
-    margin-right: 200px;
-    gap: 5px
 }
 
-.tryhard img:nth-child(1){
-    grid-area: image-1;
+.main-top img {
     width: 100%;
-    height: auto;
-    border-radius: 6px;
 }
 
-.tryhard img:nth-child(2){
-    grid-area: image-2;
-    width: 100%;
-    height: auto;
-    border-radius: 6px;
+/* For mobile phones: */
+body {
+    .text3 {
+        font-size: 2px;
+        position: absolute;
+        top: 0%;
+        left: 10%;
+        color: aliceblue;
+    }
+    .text3 p{
+        position: absolute;
+        left: 1%;
+        font-size: 800%;
+    }
 }
 
-.practice img:nth-child(1){
-    grid-area: image-3;
-    width: 100%;
-    height: auto;
-    border-radius: 6px;
+.nav-link img {
+    width: 50px;
+}
+@media only screen and (min-width: 768px) {
+
+    /* For tablets: */
+    body {
+        .text3 {
+            left: 20%;
+        }
+        .text3 p{
+            left: 10%;
+        }
+    }
 }
 
-.pratice img:nth-child(2){
-    grid-area: image-4;
-    width: 100%;
-    height: auto;
-    border-radius: 6px;
+@media only screen and (min-width: 987px) {
+
+    /* For desktop: */
+    body {
+        background-color: white;
+        .text3 {
+            top: 1%;
+            left: 33%;
+        }
+        .text5 {
+            padding-left: 0;
+            padding-right: .5rem;
+        }
+    }
 }
 
-.success img:nth-child(1){
-    grid-area: image-5;
-    width: 100%;
-    height: auto;
-    border-radius: 6px;
-}
-
-.inf {
-    display: grid;
-    position: absolute;
-    top: 1200px;
-    grid-template-columns: 70% 30%;
-    margin-left: 200px;
-    margin-right: 200px;
-    gap: 15px
-}
