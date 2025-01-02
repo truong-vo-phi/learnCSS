@@ -1,0 +1,98 @@
+.main-top {
+    position: relative;
+}
+body{
+    background-color: antiquewhite;
+}
+.main-top img {
+    width: 100%;
+}
+
+.main-heading {
+    position: relative;
+    left:20px;
+}
+
+.navbar{
+    background-color: red;
+    
+}
+.navbar-brand img{
+    position: relative;
+    left:130px;
+}
+.nav-link {
+    color: white ;
+}
+
+.btn-outline-success {
+    color: white;
+    background-color: orange;
+    border: none;
+}
+
+.btn-outline-success:hover {
+    color: white;
+    background-color: green;
+    border: none
+}
+
+.btn-outline-success:active {
+    color: white;
+    background-color: blue;
+    border: none
+}
+
+.price {
+    color: #dd2f2c;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.price-old{
+    text-decoration-line: line-through;
+    color: #666;
+    font-size: 14px;
+    line-height: 17px;
+}
+.card-text {
+    text-align: bottom;
+    color:black;
+}
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.row{
+    row-gap: 10px; /* Custom gap of 2px */
+}
+
+.information {
+    margin-top: 20px;
+    background-color: black;
+    color:white
+}   
+
+.text5 {
+    position: relative;
+    top: 10px;
+    left: 65px
+}
+
+.row {
+    position: relative;
+    left: 20px
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    margin: 13px; 
+}
+
+a:hover{
+    text-decoration: underline;
+}
