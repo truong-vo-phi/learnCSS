@@ -1,0 +1,108 @@
+body{
+    background-color:rgb(210, 233, 237);
+}
+
+.heading{
+    display: grid;
+    position: absolute;
+    grid-template-columns: 60% 30% 10%;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
+.center{
+    display: grid;
+    position: absolute;
+    top: 100px;
+    grid-template-columns: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.logo-vovinam img{
+    width: 10%;
+}
+
+.main-menu li{
+    display: inline-block;
+    position: sticky;
+    top: 30px;
+    list-style-type: None;
+    padding-right: 20px;
+}
+
+.logo-fvc img{
+    width: 70%;
+}
+
+.everyone img{
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.workhard {
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.process{
+    display: grid;
+    position: relative;
+    top: 680px;
+    grid-template-areas: 
+                        "image-1 image-2 image-5"
+                        "image-3 image-4 image-5";
+    grid-template-columns: 1fr 1fr 1.0166fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-left: 200px;
+    margin-right: 200px;
+    gap: 5px
+}
+
+.tryhard img:nth-child(1){
+    grid-area: image-1;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.tryhard img:nth-child(2){
+    grid-area: image-2;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.practice img:nth-child(1){
+    grid-area: image-3;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.pratice img:nth-child(2){
+    grid-area: image-4;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.success img:nth-child(1){
+    grid-area: image-5;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.inf {
+    display: grid;
+    position: absolute;
+    top: 1200px;
+    grid-template-columns: 70% 30%;
+    margin-left: 200px;
+    margin-right: 200px;
+    gap: 15px
+}
